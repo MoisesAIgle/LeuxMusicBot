@@ -27,7 +27,7 @@ for (const file of commandFiles) {
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
     if(message.content.match(new RegExp(`^<@!?${client.user.id}>( |)$`))) {
-        message.channel.send("Hola! soy Leux MusicBot y mi prefix es mc!, para saber mas de mi usa `mc!help`")
+        message.channel.send("Hola! soy Leux MusicBot y mi prefix es mc!, para saber mas de mi usa `mc!help`.")
     }
 
     let cmd = client.commands.find((c) => c.name === command || c.alias && c.alias.includes(command));
