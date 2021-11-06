@@ -4,7 +4,7 @@ const { Client, MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "queue",
-  alias: [],
+  alias: ["cola"],
 
 async execute (client, message, args){
 
