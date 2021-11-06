@@ -10,7 +10,7 @@ module.exports = {
 execute (client, message, args){
 
     const cancion = args.join("")
-    if(cancion === '@everyone') return message.channel.send("why are u gay (no pongas everyone)")
+    if(cancion === '@everyone') return message.channel.send("why are u gay (no pongas everyone).")
     
     if(cancion === '@here') return message.channel.send("why are u gay (no pongas here)")
     if(!cancion) return message.channel.send("Debes escribir el nombre de alguna canción")

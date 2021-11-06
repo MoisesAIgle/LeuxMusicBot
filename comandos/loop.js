@@ -45,7 +45,7 @@ async execute (client, message, args){
     if(opcion === '2'){
         client.distube.setRepeatMode(message, 2)
         const embed3 = new Discord.MessageEmbed()
-        .setDescription("Se ha activado la repetición de la **playlist**.")
+        .setDescription("Se ha activado la repetición de la **playlist**")
         .setColor("RED")
         message.channel.send(embed3)
         return;

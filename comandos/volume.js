@@ -26,7 +26,7 @@ async execute (client, message, args){
     client.distube.setVolume(message, volume)
     
     const embed = new Discord.MessageEmbed()
-    .setDescription(`El volumen se ha establecido a **${volume}%**`)
+    .setDescription(`El volumen se ha establecido a **${volume}%**!`)
     .setColor("RED")
     message.channel.send(embed)
 

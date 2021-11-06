@@ -18,7 +18,7 @@ async execute (client, message, args){
 
     client.distube.stop(message)
     const embed = new Discord.MessageEmbed()
-    .setDescription("La musica fue detenida correctamente!")
+    .setDescription("La musica fue detenida correctamente!.")
     .setColor("RED")
     
     message.channel.send(embed)

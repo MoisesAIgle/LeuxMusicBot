@@ -14,7 +14,7 @@ async execute (client, message, args){
 
     if(message.guild.me.voice.channel && message.member.voice.channel.id !== message.guild.me.voice.channel.id) return message.channel.send("Debes estar en el mismo canal de voz que yo!")
  
-    if(!serverQueue) return message.channel.send("No hay canciones en la lista")
+    if(!serverQueue) return message.channel.send("No hay canciones en la lista.")
 
     client.distube.stop(message)
     
